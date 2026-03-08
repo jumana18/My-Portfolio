@@ -210,10 +210,10 @@ const Hero = () => (
           OPEN FOR OPPORTUNITIES
         </div>
         
-        <h1 className="text-6xl md:text-8xl font-bold tracking-tighter mb-6 leading-[0.9]">
+        <h1 className="text-6xl md:text-7xl font-bold tracking-tighter mb-6 leading-[0.9]">
           JUMANA HASIN <br />
-          <span className="text-gradient">KAMMIYIL</span> <br />
-          FULL STACK DEVELOPER INTERN
+          <span className="text-gradient">  FULL STACK DEVELOPER INTERN</span> <br />
+         
         </h1>
         
         <p className="max-w-xl text-zinc-500 dark:text-zinc-400 text-lg mb-10 leading-relaxed">
