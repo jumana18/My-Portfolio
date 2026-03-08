@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@import "tailwindcss";
+:root {
+  --bg: #f8fafc;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --border: rgba(15, 23, 42, 0.08);
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --accent: #10b981;
+  --card-bg: #ffffff;
+}
+
+.dark {
+  --bg: #0f172a;
+  --text: #f8fafc;
+  --text-muted: #94a3b8;
+  --border: rgba(255, 255, 255, 0.1);
+  --glass-bg: rgba(15, 23, 42, 0.8);
+  --accent: #10b981;
+  --card-bg: #1e293b;
+}
+
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: "Inter", sans-serif;
+  }
+}
+
+.glass {
+  background-color: var(--glass-bg);
+  @apply backdrop-blur-md;
+  border: 1px solid var(--border);
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 to-teal-500;
+}
+
+.nav-link {
+  @apply text-sm font-medium transition-colors relative py-2;
+  color: var(--text-muted);
+}
+
+.nav-link:hover {
+  color: var(--text);
+}
+
+.nav-link.active {
+  color: var(--text);
+}
+
+.nav-link.active::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-full h-0.5 bg-emerald-500;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-full transition-colors;
+  background-color: var(--border);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-500;
+}
