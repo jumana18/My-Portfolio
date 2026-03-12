@@ -268,7 +268,7 @@ const Hero = ({ onScrollToProjects }: { onScrollToProjects: () => void }) => (
             download 
             className="px-10 py-5 border border-zinc-200 dark:border-white/10 font-bold rounded-full transition-all flex items-center gap-3"
           >
-            DOWNLOAD CV.EXE
+            DOWNLOAD CV
           </motion.a>
         </motion.div>
 
