@@ -261,16 +261,15 @@ const Hero = ({ onScrollToProjects }: { onScrollToProjects: () => void }) => (
             <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </motion.button>
           
-          <motion.a 
-            whileHover={{ scale: 1.05, borderColor: "rgba(16, 185, 129, 0.5)", color: "#10b981" }}
-            whileTap={{ scale: 0.95 }}
-            href="public/Jumana-Hasin-CV.pdf"
-            download ="public/Jumana-Hasin-CV .pdf"
-            className="px-10 py-5 border border-zinc-200 dark:border-white/10 font-bold rounded-full transition-all flex items-center gap-3"
-          >
-            DOWNLOAD CV.
-          </motion.a>
-        </motion.div>
+      <motion.a 
+             whileHover={{ scale: 1.05, borderColor: "rgba(16, 185, 129, 0.5)", color: "#10b981" }}
+              whileTap={{ scale: 0.95 }}
+              href="/Jumana-Hasin-CV.pdf" 
+               download="Jumana-Hasin-CV.pdf"
+              className="px-10 py-5 border border-zinc-200 dark:border-white/10 font-bold rounded-full transition-all flex items-center gap-3"
+              >
+             DOWNLOAD CV.
+         </motion.a>
 
         <motion.div 
           initial={{ opacity: 0 }}
