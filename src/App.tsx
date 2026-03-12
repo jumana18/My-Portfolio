@@ -264,8 +264,8 @@ const Hero = ({ onScrollToProjects }: { onScrollToProjects: () => void }) => (
           <motion.a 
             whileHover={{ scale: 1.05, borderColor: "rgba(16, 185, 129, 0.5)", color: "#10b981" }}
             whileTap={{ scale: 0.95 }}
-            href="public/Jumana-Hasin-CV .pdf"
-            download 
+            href="public/Jumana-Hasin-CV.pdf"
+            download ="public/Jumana-Hasin-CV .pdf"
             className="px-10 py-5 border border-zinc-200 dark:border-white/10 font-bold rounded-full transition-all flex items-center gap-3"
           >
             DOWNLOAD CV.
