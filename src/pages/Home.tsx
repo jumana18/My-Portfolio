@@ -71,15 +71,15 @@ const Hero = () => (
             <div className="w-1.5 h-1.5 bg-white dark:bg-black rounded-full group-hover:scale-150 transition-transform"></div>
           </motion.button>
 
-          <motion.a
-            whileHover={{ y: -5 }}
-            whileTap={{ scale: 0.98 }}
-            href="public/Jumana-Hasin-CV.pdf"
-            download
-            className="px-12 py-5 border border-zinc-200 dark:border-white/10 text-[11px] font-display font-bold tracking-[0.3em] uppercase transition-all flex items-center gap-4"
-          >
-           DOWNLOAD CV
-          </motion.a>
+     <motion.a
+  whileHover={{ y: -5 }}
+  whileTap={{ scale: 0.98 }}
+  href="/Jumana-Hasin-CV.pdf"
+  download="Jumana_Hasin_CV.pdf"
+  className="px-12 py-5 border border-zinc-200 dark:border-white/10 text-[11px] font-display font-bold tracking-[0.3em] uppercase transition-all flex items-center gap-4"
+>
+  DOWNLOAD CV
+</motion.a>
         </motion.div>
 
        
