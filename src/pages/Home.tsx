@@ -74,8 +74,8 @@ const Hero = () => (
      <motion.a
   whileHover={{ y: -5 }}
   whileTap={{ scale: 0.98 }}
-  href="/Jumana-Hasin-CV.pdf"
-  download="Jumana_Hasin_CV.pdf"
+  href="/Jumana-Hasin-CV .pdf"
+  download="Jumana-Hasin-CV .pdf"
   className="px-12 py-5 border border-zinc-200 dark:border-white/10 text-[11px] font-display font-bold tracking-[0.3em] uppercase transition-all flex items-center gap-4"
 >
   DOWNLOAD CV
